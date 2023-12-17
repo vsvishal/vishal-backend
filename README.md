@@ -35,3 +35,8 @@ app.use();
   2. configure ejs - app.set("view engine", "ejs");
   3. create one "views" folder & create ejs files in it.
   4. instead of send, do render => render karte waqt make sure app views folder ke aandar wali hi koi file ka naam likhiye, aur render() ma .ejs mention na kare.
+ 
+## Static files (images, stylesheets, javascripts) to setup this follow below steps
+- Create a folder public
+- Create 3 folders inside it, images, stylesheets, javascript
+- Configure the express static in index.js file  
