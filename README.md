@@ -18,3 +18,6 @@ app.use();
 ## req, res
 - req: User data, like I want to know what data the user has sent.
 - res: For sending any data from the server, it is sent through res.
+- req mai sara data hota hai aane wale user ki, request ki taraf ka, jaise ki uski location, device info, and other things.
+- res mai controls hote hai jinke basis pe hum sreve se response bhej pate hai.
+- next is just a push so that our req moves to the next things that should be executed.
