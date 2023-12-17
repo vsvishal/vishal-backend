@@ -27,4 +27,10 @@ app.use();
 - /author/books/issued/:username
 
 
-## EJS is a like a HTML with computing power, because in normal HTML 1+2 will give 1+2 as output, but in ejs it will compute and give 3.
+## EJS 
+- It is like HTML with computing power, because in normal HTML 1+2 will give 1+2 as output, but in ejs it will compute and give 3.
+- ejs setup steps
+  1. ejs install - npm i ejs
+  2. configure ejs - app.set("view engine", "ejs");
+  3. create one "views" folder & create ejs files in it.
+  4. instead of send, do render
