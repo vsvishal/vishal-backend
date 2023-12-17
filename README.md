@@ -33,4 +33,4 @@ app.use();
   1. ejs install - npm i ejs
   2. configure ejs - app.set("view engine", "ejs");
   3. create one "views" folder & create ejs files in it.
-  4. instead of send, do render
+  4. instead of send, do render => render karte waqt make sure app views folder ke aandar wali hi koi file ka naam likhiye, aur render() ma .ejs mention na kare.
