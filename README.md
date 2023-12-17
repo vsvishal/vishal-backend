@@ -25,3 +25,6 @@ app.use();
 ## Dynamic route
 - To make any route dynamic you can use ":" at the place where you want to make it dynamic, and to access their value use "req.params"
 - /author/books/issued/:username
+
+
+## EJS is a like a HTML with computing power, because in normal HTML 1+2 will give 1+2 as output, but in ejs it will compute and give 3.
