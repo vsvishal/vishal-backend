@@ -21,3 +21,7 @@ app.use();
 - req mai sara data hota hai aane wale user ki, request ki taraf ka, jaise ki uski location, device info, and other things.
 - res mai controls hote hai jinke basis pe hum sreve se response bhej pate hai.
 - next is just a push so that our req moves to the next things that should be executed.
+
+## Dynamic route
+- To make any route dynamic you can use ":" at the place where you want to make it dynamic, and to access their value use "req.params"
+- /author/books/issued/:username
