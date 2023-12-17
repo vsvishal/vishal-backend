@@ -28,6 +28,7 @@ app.use();
 
 
 ## EJS 
+- It is template engine
 - It is like HTML with computing power, because in normal HTML 1+2 will give 1+2 as output, but in ejs it will compute and give 3.
 - ejs setup steps
   1. ejs install - npm i ejs
