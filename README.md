@@ -40,3 +40,7 @@ app.use();
 - Create a folder public
 - Create 3 folders inside it, images, stylesheets, javascript
 - Configure the express static in index.js file  
+
+
+## express generator
+- Express generator ek folder bana ke deta hai, jiska matlab aapko khudse folder nhi banana hai, to express gen sare files to is folder ma dal k dega.
