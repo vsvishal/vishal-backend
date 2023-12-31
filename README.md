@@ -66,6 +66,31 @@ app.use();
 - Session
   - If you want to store data on the server then use Session
   - npm i express-session
+  -  SETUP PROCESS
+      - ```javascript
+        const session = require("express-session");
+          app.use(
+  session({
+    resave: false,
+    saveUninitialized: false,
+    secret: "holabholaholabhola",
+  })
+
+ // create cookie
+ req.session.ban = true;
+
+ // check cookie
+  if (req.session.ban === true) {
+    res.send("You are banned");
+  }
+
+  // delete cookie
+  req.session.destroy((error) => {
+    if (error) throw new error();
+    res.send("banned removed");
+  });
+        ```
+        
 
 - Cookies
     - If you want to store data on clients then use Cookies.
