@@ -94,15 +94,15 @@ app.use();
 
 - Cookies
     - If you want to store data on clients then use Cookies.
-    - ```javascript
-          // set cookie
-          res.cookie("age", 26);
-
-          // get cookie
-          req.cookies.age
-      
-          // delete cookie
-          res.clearCookie("age")
-      ```
+      - ```javascript
+            // set cookie
+            res.cookie("age", 26);
+  
+            // get cookie
+            req.cookies.age
+        
+            // delete cookie
+            res.clearCookie("age")
+        ```
 
   
