@@ -52,4 +52,7 @@ app.use();
 
 ## Database
 ![image](https://github.com/vsvishal/vishal-backend/assets/39647664/823ae5c8-f27e-4a9e-b493-775deca7987b)
+- Ek app ka pura data => db
+- Ek app mai variety of data hota hai par poora data hota app ka ki hai, par us data ka sub-category kehlata hai collection
+- Collection matalab users ka data, but us me se ak user matlab document.
 
