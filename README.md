@@ -49,3 +49,7 @@ app.use();
 - cd appname
 - npm i
 - npx nodemon (to run)
+
+## Database
+![image](https://github.com/vsvishal/vishal-backend/assets/39647664/823ae5c8-f27e-4a9e-b493-775deca7987b)
+
