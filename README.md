@@ -57,7 +57,7 @@ app.use();
 - Collection matalab users ka data, but us me se ak user matlab document.
 
 - - install mongodb
-  - install mongoosejs
+  - install mongoosejs (npm i moongose)
   - require and setup connection
   - make schema
   - create modal and export
