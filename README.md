@@ -45,4 +45,6 @@ app.use();
 ## express generator
 - Express generator ek folder bana ke deta hai, jiska matlab aapko khudse folder nhi banana hai, to express gen sare files to is folder ma dal k dega.
 - npm i express-generator -g
-- express appname --view=ejs
+- express appname --view=ejs  (e.g express vishal --view=ejs]
+- cd appname
+- npm i
