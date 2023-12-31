@@ -64,8 +64,10 @@ app.use();
 
 ## Session and Cookies
 - Session
-  - If you want to store data on server then use Session
+  - If you want to store data on the server then use Session
+  - npm i express-session
 
 - Cookies
     - If you want to store data on clients then use Cookies.
-    - 
+
+  
