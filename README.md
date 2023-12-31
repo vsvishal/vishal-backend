@@ -76,7 +76,7 @@ app.use();
             secret: "holabholaholabhola",
           })
         
-         // create cookie
+         // create session
          req.session.ban = true;
         
          // check cookie
@@ -84,7 +84,7 @@ app.use();
             res.send("You are banned");
           }
         
-          // delete cookie
+          // delete session
           req.session.destroy((error) => {
             if (error) throw new error();
             res.send("banned removed");
