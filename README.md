@@ -48,3 +48,4 @@ app.use();
 - express appname --view=ejs  (e.g express vishal --view=ejs]
 - cd appname
 - npm i
+- npx nodemon (to run)
