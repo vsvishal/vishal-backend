@@ -56,3 +56,9 @@ app.use();
 - Ek app mai variety of data hota hai par poora data hota app ka ki hai, par us data ka sub-category kehlata hai collection
 - Collection matalab users ka data, but us me se ak user matlab document.
 
+- install mongodb
+- install mongoose
+- require and setup connection
+- make schema
+- create modal and export
+
