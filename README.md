@@ -62,3 +62,10 @@ app.use();
   - make schema
   - create modal and export
 
+## Session and Cookies
+- Session
+  - If you want to store data on server then use Session
+
+- Cookies
+    - If you want to store data on clients then use Cookies.
+    - 
