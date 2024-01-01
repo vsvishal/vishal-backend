@@ -105,4 +105,11 @@ app.use();
             res.clearCookie("age")
         ```
 
+## flash message
+- install connect-flash
+- make sure you setup express-session
+- makes sure you put connect flash in app.use function
+- kisi bhi route mai appko falsh create karna hai
+- kisi bhi dusre route par use chalane ka try kare
+- AAP CONNECT FLASH KO USE NHI KAR SAKTE BINA EXPRESS SESSION K
   
